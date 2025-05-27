@@ -17,7 +17,7 @@ ptech is a lightweight, early-stage Windows command-line tool designed to analyz
 ## Download
 
 Visit the Releases section to download the latest version.
-
+```
 - Extract the ZIP
 - Run from the command line:
   Usage:
@@ -25,7 +25,7 @@ Visit the Releases section to download the latest version.
     ptech --help, -h              Show this help message
     ptech --license               Show license information
     ptech --version               Show version information
-
+```
 Requires Windows 10 or newer. No installation needed.
 
 
