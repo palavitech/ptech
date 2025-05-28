@@ -53,3 +53,12 @@ Feedback, bug reports, and use-case ideas are welcome via the Issues section or 
 ## 🔒 License
 
 All rights reserved. Redistribution of binaries is permitted, but modification or reverse engineering is strictly prohibited.
+
+
+---
+
+# ⚖️ Legal Disclaimer
+
+Use this tool at your own risk. The authors and distributors of **ptech** are not liable for any damage, data loss, or consequences resulting from its use. It is intended for legitimate purposes only, such as educational research and internal tooling.
+
+By using this software, you agree that you understand and accept all risks associated with its use.
