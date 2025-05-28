@@ -1,43 +1,55 @@
 # ptech
 
-ptech is a lightweight, early-stage Windows command-line tool designed to analyze files and generate basic insights. It uses a plugin-style DLL system to support modular functionality and is intended for internal or controlled external use. While still minimal, roadmap is to make it useful as a supporting utility in workflows such as basic malware triage.
+**ptech** is a lightweight, early-stage Windows command-line tool designed to analyze files and generate basic insights. It uses a plugin-style DLL system for modular functionality and is intended for internal use or controlled external distribution.
 
+While minimal by design, the roadmap aims to make it a helpful utility for workflows such as basic malware triage.
 
-> This repository hosts only the documentation and release binaries. The source code is proprietary and not open-source at this time.
+> **Note:** This repository contains only documentation and release binaries. The source code is proprietary and not open-source at this time.
 
-## Features
+---
 
-- Calculates and reports:
+## ✨ Features
+
+- Calculates and displays:
   - SHA-256 hash
   - SHA-512 hash
+- Outputs results in a structured, integration-ready format
+- Built as a C++ console application using modular C-based DLL callbacks
 
-- Outputs data in a structured format for integration or inspection
-- Built as a C++ console application with modular C-based DLL callbacks
+---
 
-## Download
+## 📦 Download
 
-Visit the Releases section to download the latest version.
+Visit the [Releases](#) section to download the latest version.
+
+### Usage
+
+```bash
+# Extract the ZIP and run from the command line:
+ptech --analyze <file>       # Analyze a file
+ptech --help or -h           # Display help
+ptech --license              # View license information
+ptech --version              # Show version
 ```
-- Extract the ZIP
-- Run from the command line:
-  Usage:
-    ptech --analyze <file>        Run analyze module
-    ptech --help, -h              Show this help message
-    ptech --license               Show license information
-    ptech --version               Show version information
-```
-Requires Windows 10 or newer. No installation needed.
 
+> Requires **Windows 10 or newer**. No installation required.
 
-## Roadmap
+---
 
-- More functions that will help Malware Analysis
-- Reporting
+## 🚧 Roadmap
 
-## A Note from the Author
+- Additional features to aid malware analysis
+- Structured reporting functionality
 
-This project is still in its early stages — it's minimal by design, and development will evolve gradually. Feedback, bug reports, and use-case ideas are always welcome through the issues section or email.
+---
 
-## License
+## 💬 A Note from the Author
 
-All rights reserved. Redistribution of binaries is allowed, but modification or reverse engineering is not permitted.
+This project is still in its early stages — it's intentionally minimal and will evolve over time.  
+Feedback, bug reports, and use-case ideas are welcome via the Issues section or email.
+
+---
+
+## 🔒 License
+
+All rights reserved. Redistribution of binaries is permitted, but modification or reverse engineering is strictly prohibited.
