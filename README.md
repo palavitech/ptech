@@ -20,7 +20,7 @@ While minimal by design, the roadmap aims to make it a helpful utility for workf
 
 ## 📦 Download
 
-Visit the [Releases](#) section to download the latest version.
+Visit the [Releases](https://github.com/palavitech/ptech/releases/) section to download the latest version.
 
 ### Usage
 
