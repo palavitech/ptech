@@ -10,9 +10,9 @@ While minimal by design, the roadmap aims to make it a helpful utility for workf
 
 ## ✨ Features
 
-- Calculates and displays:
-  - SHA-256 hash
-  - SHA-512 hash
+- Calculates and displays hashes (SHA-256 and SHA-512)
+- Lists DLLs imported (import table)
+- Lists basic PE-Headers 
 - Outputs results in a structured, integration-ready format
 - Built as a C++ console application using modular C-based DLL callbacks
 
