@@ -10,6 +10,7 @@ While minimal by design, the roadmap aims to make it a helpful utility for workf
 
 ## ✨ Features
 
+- VirusTotal API Malware scan using file hash 
 - Calculates and displays hashes (SHA-256 and SHA-512)
 - Lists DLLs imported (import table)
 - Lists basic PE-Headers 
@@ -24,16 +25,18 @@ Visit the [Releases](https://github.com/palavitech/ptech/releases/) section to d
 
 ### Usage
 
-```bash
-# Extract the ZIP and run from the command line:
-ptech --analyze <file>       # Analyze a file
-ptech --help or -h           # Display help
-ptech --license              # View license information
-ptech --version              # Show version
+```
+Usage:
+  ptech --analyze -p <File Path>            Analyze file
+  ptech --virus-total -h <File Hash>        VirusTotal analysis using file hash
+
+  ptech --help, -h                          Show this help message
+  ptech --license                           Show license information
+  ptech --version                           Show version information
 ```
 
 > Requires **Windows 10 or newer**. No installation required.
-
+> 6. For VirusTotal scans, ensure that you have obtained API key from VirusTotal. Check out the [VirusTotal documentation](https://docs.virustotal.com/reference/overview) for further details
 ---
 
 ## 🚧 Roadmap
