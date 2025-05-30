@@ -36,7 +36,13 @@ Usage:
 ```
 
 > Requires **Windows 10 or newer**. No installation required.
-> 6. For VirusTotal scans, ensure that you have obtained API key from VirusTotal. Check out the [VirusTotal documentation](https://docs.virustotal.com/reference/overview) for further details
+> For VirusTotal scans, ensure that you have obtained API key from VirusTotal. Check out the [VirusTotal documentation](https://docs.virustotal.com/reference/overview) for further details. Once you obtain the key, change the keys.txt that you see in the extracted folder and place your key there.
+
+The placeholder looks like this. Replace this placeholder with the VirusTotal API key.
+```
+vt:ADD_YOUR_VIRUSTOTAL_API_KEY_HERE
+
+```
 ---
 
 ## 🚧 Roadmap
