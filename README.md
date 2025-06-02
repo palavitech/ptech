@@ -1,8 +1,8 @@
 # ptech
 
-**ptech** is a lightweight, early-stage Windows command-line tool designed to analyze files and generate basic insights. It uses a plugin-style DLL system for modular functionality and is intended for internal use or controlled external distribution.
+**ptech** is a lightweight, early-stage Windows command-line tool designed to analyze files and their executions.
 
-While minimal by design, the roadmap aims to make it a helpful utility for workflows such as basic malware triage.
+While minimal by design, the roadmap aims to make it a helpful utility for workflows such as basic malware triage, specifically Windows-based malware.
 
 > **Note:** This repository contains only documentation and release binaries. The source code is proprietary and not open-source at this time.
 
@@ -10,6 +10,8 @@ While minimal by design, the roadmap aims to make it a helpful utility for workf
 
 ## ✨ Features
 
+- Lists child processes spawn by the executable
+- Lists TCP and UDP network connections (IP and Port)
 - VirusTotal API Malware scan using file hash 
 - Calculates and displays hashes (SHA-256 and SHA-512)
 - Lists DLLs imported (import table)
@@ -27,12 +29,15 @@ Visit the [Releases](https://github.com/palavitech/ptech/releases/) section to d
 
 ```
 Usage:
-  ptech --analyze -p <File Path>            Analyze file
-  ptech --virus-total -h <File Hash>        VirusTotal analysis using file hash
+  ptech --analyze -p <File Path>
+  ptech --virus-total -h <File Hash>
+  ptech --child-processes -n <Process name>
+  ptech --network-connections -n <Process name>
 
-  ptech --help, -h                          Show this help message
-  ptech --license                           Show license information
-  ptech --version                           Show version information
+  ptech --help, -h
+  ptech --license
+  ptech --version
+
 ```
 
 > Requires **Windows 10 or newer**. No installation required.
