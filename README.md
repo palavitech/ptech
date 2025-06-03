@@ -45,7 +45,7 @@ Usage:
 
 The placeholder looks like this. Replace this placeholder with the VirusTotal API key.
 ```
-vt:ADD_YOUR_VIRUSTOTAL_API_KEY_HERE
+vt:PLACE_YOUR_VIRUSTOTAL_API_KEY_HERE
 
 ```
 ---
